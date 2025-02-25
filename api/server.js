@@ -73,7 +73,7 @@ app.put("/products/:id", async (req, res) => {
     await base("Products").update(req.params.id, {
       Name: name,
       Description: description,
-      Price: price,
+      Price: Number(price),
       ImageURL: imageUrl,
       Seller: seller,
     });
