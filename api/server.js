@@ -57,7 +57,7 @@ app.post("/products", async (req, res) => {
     const record = await base("Products").create({
       Name: name,
       Description: description,
-      Price: price,
+      Price: Number(price),
       ImageURL: imageUrl,
       Seller: seller,
     });
