@@ -2,6 +2,10 @@
 
 A basic marketplace built with the ERN stack (Express.js, React, Node.js) using Vite and Airtable.
 
+## Preview
+
+https://my-marketplace-teal.vercel.app/
+
 ## Setup
 
 ### Backend
